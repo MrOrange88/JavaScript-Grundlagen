@@ -10,6 +10,8 @@ let myPower = 2**3; // 2 hoch 3 = 8
 
 let myConcat = "Hallo" + " Welt"; // Hallo Welt
 
+// combination of string and number
+
 let myCombination = "5" + 5; // 55 (String + Number = String)
 
 console.log(myDivison);
