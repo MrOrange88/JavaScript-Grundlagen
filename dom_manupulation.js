@@ -1,4 +1,4 @@
-let title = document.getElementById("website_title");
+/*let title = document.getElementById("website_title");
 
 console.log(title.innerHTML);
 
@@ -22,6 +22,6 @@ function toogleDNone(id){
     document.getElementById(id).classList.toggle('d_none');
 }
 
-document.getElementById("input_down").value;
 
-document.getElementById("input_up").value;
+
+*/
