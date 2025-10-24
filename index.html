@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JavaScript Grundlagen</title>
 
-    <script src="basics.js" defer></script>
-    <script src="strings_numbers.js" defer></script>
-    <script src="conditional_code.js" defer></script>
-    <script src="functions.js" defer></script>
-    <script src="objects.js" defer></script>
-    <script src="debugger.js" defer></script>
+    <script src="basics.js"></script>
+    <script src="strings_numbers.js"></script>
+    <script src="conditional_code.js"></script>
+    <script src="functions.js"></script>
+    <script src="objects.js"></script>
+    <script src="debugger.js"></script>
     <script src="scopes.js"></script>
+    <script src="arrays_and_loops.js"></script>
     <style>
       .green_bg {
         width: 50px;
@@ -23,13 +24,16 @@
       }
     </style>
   </head>
-  <body onload="testOne()">
+  <body onload="initArrays()">
     <h1 onclick="testOne()" id="website_title">Der Titel der Website</h1>
 
     <p id="debugger_log">0</p>
 
     <input type="text" onkeydown="testOne()" />
     <button onclick="init()">Start Debugger testing</button>
+
+    <div id="my_content"></div>
+    <p></p>
   </body>
   <script src="dom_manupulation.js" defer></script>
 </html>
